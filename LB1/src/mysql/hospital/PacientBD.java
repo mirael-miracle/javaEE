@@ -109,6 +109,27 @@ public class PacientBD {
          }
          return 0;
      }
+ // Find pacient
+//  public static int search(Pacient pacient) {
+//  	try{
+//          Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance();
+//          try (Connection conn = DriverManager.getConnection(url, username, password)){
+//                
+//              String sql = "SELECT * FROM pacient where name = ?";
+//              try(PreparedStatement preparedStatement = conn.prepareStatement(sql)){
+//                  preparedStatement.setString(1, pacient.getName());
+//    				preparedStatement.setString(2, pacient.getSkarga());
+//    				preparedStatement.setInt(3, pacient.getId());
+//                    
+//                  return  preparedStatement.executeUpdate();
+//              }
+//          }
+//      }
+//      catch(Exception ex){
+//          System.out.println(ex);
+//      }
+//      return 0;
+//  }
             
 }
 

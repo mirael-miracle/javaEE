@@ -20,6 +20,10 @@
     <form method="post" action='<c:url value="/deletedoctor" />' style="display:inline;">
         <input type="hidden" name="id" value="${pacient.id}">
         <input type="submit" value="Delete">
+        <br>
+        <br>
+        <input type="text" name = "doctor">
+       	<input type="submit" value="Search">
     </form>
  </td></tr>
 </c:forEach>

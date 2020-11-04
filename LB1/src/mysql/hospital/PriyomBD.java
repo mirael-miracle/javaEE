@@ -112,6 +112,27 @@ public class PriyomBD {
          }
          return 0;
      }
+ // Find priyom
+//  public static int search(Priyom priyom) {
+//  	try{
+//          Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance();
+//          try (Connection conn = DriverManager.getConnection(url, username, password)){
+//                
+//              String sql = "SELECT * FROM priyom where skarga = ?";
+//              try(PreparedStatement preparedStatement = conn.prepareStatement(sql)){
+//    			preparedStatement.setString(1, priyom.getSkarga());
+//    			preparedStatement.setString(2, priyom.getDiagnos());
+//    			preparedStatement.setString(3, priyom.getDatapr());
+//   		 	preparedStatement.setInt(4, priyom.getId());
+//                  return  preparedStatement.executeUpdate();
+//              }
+//          }
+//      }
+//      catch(Exception ex){
+//          System.out.println(ex);
+//      }
+//      return 0;
+//  }
             
 }
 

@@ -108,6 +108,27 @@ public class DoctorBD {
          }
          return 0;
      }
+// Find doctor
+//    public static int search(Doctor doctor) {
+//    	try{
+//            Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance();
+//            try (Connection conn = DriverManager.getConnection(url, username, password)){
+//                  
+//                String sql = "SELECT * FROM doctor where name = ?";
+//                try(PreparedStatement preparedStatement = conn.prepareStatement(sql)){
+//                    preparedStatement.setString(1, doctor.getName());
+//                    preparedStatement.setString(2, doctor.getSpecial());
+//                    preparedStatement.setInt(3, doctor.getId());
+//                      
+//                    return  preparedStatement.executeUpdate();
+//                }
+//            }
+//        }
+//        catch(Exception ex){
+//            System.out.println(ex);
+//        }
+//        return 0;
+//    }
             
 }
 
