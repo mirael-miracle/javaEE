@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="doctor"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="doctors"/>
+			<item value="product"/>
+			<item value="Product"/>
+			<item value="salary"/>
+			<item value="ename"/>
+			<item value="eid"/>
+			<item value="Employee"/>
+			<item value="article"/>
+			<item value="ARTICLE"/>
+			<item value="Section"/>
+			<item value="Title"/>
+			<item value="title"/>
+			<item value="Article"/>
+			<item value="Catalog"/>
+			<item value="catalog"/>
+		</list>
+		<list key="replacehistory">
+			<item value="doctor"/>
+			<item value="Doctor"/>
+			<item value="skarga"/>
+			<item value="name"/>
+			<item value="id"/>
+			<item value="Priyom"/>
+			<item value="Pacient"/>
+			<item value="DOCTOR"/>
+			<item value="String"/>
+			<item value="Name"/>
+			<item value="priyom"/>
+			<item value="PACIENT"/>
+			<item value="pacient"/>
+			<item value="PRIYOM"/>
+			<item value="Priyom3"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="672"/>
+		<item key="DIALOG_Y_ORIGIN" value="184"/>
+		<item key="DIALOG_WIDTH" value="272"/>
+		<item key="DIALOG_HEIGHT" value="377"/>
+		<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+	</section>
+</section>
